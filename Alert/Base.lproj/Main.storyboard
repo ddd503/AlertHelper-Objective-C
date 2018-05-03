@@ -26,11 +26,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y73-Re-atU">
-                                <rect key="frame" x="216" y="281" width="98" height="30"/>
+                                <rect key="frame" x="216" y="281" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="handlerで実行"/>
+                                <state key="normal" title="Closureで実行"/>
                                 <connections>
-                                    <action selector="handlerAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeA-O5-lXd"/>
+                                    <action selector="closureAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeA-O5-lXd"/>
                                 </connections>
                             </button>
                         </subviews>

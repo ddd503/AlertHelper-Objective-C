@@ -32,7 +32,7 @@
     return alert;
 }
 
-+ (UIAlertController *)alertWithHandler:(NSString *)title
++ (UIAlertController *)alertWithClosure:(NSString *)title
                                 messege:(NSString *)messege
                                 handler:(void (^)(UIAlertAction *action))handler {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title

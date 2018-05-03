@@ -17,7 +17,7 @@
 @property (nonatomic, weak) id<AlertHelperDelegate> delegate;
 - (UIAlertController *)alertWithProtocol:(NSString *)title
                                  messege:(NSString *)messege;
-+ (UIAlertController *)alertWithHandler:(NSString *)title
++ (UIAlertController *)alertWithClosure:(NSString *)title
                                 messege:(NSString *)messege
                                 handler:(void (^)(UIAlertAction *action))handler;
 @end

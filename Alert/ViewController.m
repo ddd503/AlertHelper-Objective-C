@@ -30,9 +30,9 @@
     [self presentViewController:alert animated:YES completion:nil];
 }
 
-/// ハンドラーでメソッド実行(インスタンス化なし・実行メソッドはコントローラーで指定)
-- (IBAction)handlerAlert:(id)sender {
-    UIAlertController *alert = [AlertHelper alertWithHandler:@"アラート"
+/// クロージャでメソッド実行(インスタンス化なし・実行メソッドはコントローラーで指定)
+- (IBAction)closureAlert:(id)sender {
+    UIAlertController *alert = [AlertHelper alertWithClosure:@"アラート"
                                                      messege:@"ハンドラーでアクション実行"
                                                      handler:^(UIAlertAction *action) {
                                                          [self hoge];
